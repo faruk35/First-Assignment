@@ -202,3 +202,26 @@ button:hover{
 .profile-details p{
     color: #0000007e;
 }
+.focus{
+    margin: 35px auto;
+}
+.focus h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.focus p{
+    text-align: center;
+    opacity: 0.6;
+}
+.focus button{
+    display: block;
+    margin: 0 auto;
+}
+.focus img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
