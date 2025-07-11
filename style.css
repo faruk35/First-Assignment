@@ -35,6 +35,8 @@ header nav .logo{
     color: white;
     border-radius: 10px;
     border: none;
+    padding: 8px 23px;
+    font-size: 16px;
 }
 .banner-section{
     margin: 0px auto;
@@ -50,4 +52,69 @@ header nav .logo{
     font-size: 16px;
     display: block;
     margin: 20px auto;
+}
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.action .action-left h2{
+    font-size: 42px;
+    font-size: bold;
+}
+.action-left button{
+    margin-top: 20px;
+}
+.action-left p{
+    margin-top: 10px;
+}
+.productive-user{
+    background-color: #c5c4fc;
+    padding: 20px;
+}
+.productive-user h2{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.productive-user .number{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.number .num{
+    padding: 0px 90px;
+}
+.number .num h4{
+    font-size: 65px;
+    color: #4E47FF;
+    margin-top: 20px;
+}
+.touch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.touch .touch-left h2{
+    font-size: 97px;
+}
+.touch .touch-right{
+    margin: 80px 20px;
+}
+.touch .touch-right .input {
+    font-size: 18px;
+    padding: 10px 0px 7px 25px;
+    border-radius: 10px;
+    outline: none;
+    margin: 20px 0px;
+    width:100%;
+}
+.touch-right button {
+    width: 100%;
+    background-color: #4E47FF;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
 }
