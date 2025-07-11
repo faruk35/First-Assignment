@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+}
+header{
+    height: 151px;
+    margin: 0 auto;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+header nav button {
+    padding: 8px 23px;
+    font-size: 16px;
+}
+header nav .logo{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+.btn{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
