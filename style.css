@@ -118,3 +118,31 @@ header nav .logo{
     border-radius: 10px;
     border: none;
 }
+footer{
+    padding: 40px 0px;
+}
+footer .logo{
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: #4E47FF;
+}
+footer p{
+    text-align: center;
+    opacity: 0.6;
+}
+.navigator ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+    font-size: 20px;
+}
+.navigator ul li{
+    list-style: none;
+}
+.navigator ul li a{
+    text-decoration: none;
+    opacity: 0.6;
+}
